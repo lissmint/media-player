@@ -53,7 +53,7 @@ export const videoPlayerInit = () => {
     progress.value = (currentTime / duration) * 100;
   });
 
-  progress.addEventListener("change", () => {
+  progress.addEventListener("input", () => {
     const duration = player.duration;
     const val = progress.value;
 
