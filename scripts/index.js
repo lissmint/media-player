@@ -20,3 +20,5 @@ playerBtns.forEach((btn, i) =>
   })
 );
 radioPlayerInit();
+audioPlayerInit();
+videoPlayerInit();
